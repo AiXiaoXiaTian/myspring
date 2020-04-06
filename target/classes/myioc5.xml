@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+    <bean name="helloWorldService" class="myioc05.HelloWorldService">
+        <property name="name" value="小明"></property>
+    </bean>
+    <bean name="logService" class="myioc05.LogService">
+        <property name="name" value="测试日志"></property>
+        <property name="level" value="1"></property>
+    </bean>
+</beans>

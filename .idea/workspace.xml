@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f5ae5aa-9026-4eb6-9144-94763dacba46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myspring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc01/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc01/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc02/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc02/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc03/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc03/factory/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc03/factory/AutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc03/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc04/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc04/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc04/PropertyValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc04/factory/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc04/factory/AutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc04/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/PropertyValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/factory/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/factory/AutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/factory/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/io/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/io/XmlResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/resolver/Resolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myioc05/resolver/XmlResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/myioc5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc01/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc01/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc02/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc02/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc03/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc03/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc04/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc04/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc05/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc05/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myioc05/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/myspring.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc01/BeanDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc01/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc02/BeanDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc02/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc03/BeanDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc03/factory/AbstractBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc03/factory/AutowireCapableBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc03/factory/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc04/BeanDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc04/PropertyValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc04/PropertyValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc04/factory/AbstractBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc04/factory/AutowireCapableBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc04/factory/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/BeanDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/PropertyValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/PropertyValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/factory/AbstractBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/factory/AutowireCapableBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/factory/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/factory/ClassPathXmlApplicationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/io/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/io/XmlResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/resolver/Resolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc05/resolver/XmlResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/myioc5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/myspring.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc01/HelloWorldService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc01/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc02/HelloWorldService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc02/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc03/HelloWorldService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc03/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc04/HelloWorldService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc04/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc05/HelloWorldService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc05/LogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myioc05/MyTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myspring" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1a8AXKrVm7wGR3FGsK6XOCim5Up" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/myioc05" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\java\myspring\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="myioc04" />
+      <recent name="myioc03" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\java\myspring\src\test\java\myioc05" />
+      <recent name="D:\code\java\myspring\src\main\java\myioc05" />
+      <recent name="D:\code\java\myspring\src\test\java\myioc04" />
+      <recent name="D:\code\java\myspring\src\main\java\myioc04" />
+      <recent name="D:\code\java\myspring\src\test\java\myioc03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.test (4)">
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myioc03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myioc03" />
+      <option name="MAIN_CLASS_NAME" value="myioc03.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myioc02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myioc02" />
+      <option name="MAIN_CLASS_NAME" value="myioc02.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myioc03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myioc03" />
+      <option name="MAIN_CLASS_NAME" value="myioc03.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myioc04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myioc04" />
+      <option name="MAIN_CLASS_NAME" value="myioc04.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myioc05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myioc05" />
+      <option name="MAIN_CLASS_NAME" value="myioc05.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myioc05_err.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myioc05_err" />
+      <option name="MAIN_CLASS_NAME" value="myioc05_err.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test (4)" />
+        <item itemvalue="JUnit.MyTest.test (4)" />
+        <item itemvalue="JUnit.MyTest.test (3)" />
+        <item itemvalue="JUnit.MyTest.test (2)" />
+        <item itemvalue="JUnit.MyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f5ae5aa-9026-4eb6-9144-94763dacba46" name="Default Changelist" comment="" />
+      <created>1586106885505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586106885505</updated>
+      <workItem from="1586106889365" duration="5261000" />
+      <workItem from="1586152719845" duration="14888000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1586106918990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586106918990" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1586177500227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586177500227" />
+    <state x="639" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586168391144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586168391144" />
+    <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586153124716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1586153124716" />
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586168392584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1586168392584" />
+    <state x="539" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586177018985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586177018985" />
+    <state x="1176" y="443" key="#xdebugger.evaluate" timestamp="1586172790594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1176" y="443" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1586172790594" />
+    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1586172035900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="454" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586172035900" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1586177661935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586177661935" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1586177661935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586177661935" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1586177661935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586177661935" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1586177661935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586177661935" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586172796032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586172796032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586172796032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586172796032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586172796032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586172796032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586172796032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586172796032" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1586152824398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586152824398" />
+    <state x="690" y="284" key="extract.method.dialog" timestamp="1586169487674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="284" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586169487674" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586154274442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586154274442" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/myioc05_err/io/ResourceLoader.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
